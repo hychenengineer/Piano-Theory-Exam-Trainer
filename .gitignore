@@ -1,0 +1,6 @@
+# Keep master plaintext source, API key generator, and printable PDFs private (local only)
+app_source.html
+print_exams.html
+*.pdf
+*.ps1
+*.bat
