@@ -22,3 +22,11 @@ The plaintext `app_source.html`, source PDFs in `official_reference_pdfs/`, and 
 4. Run `python tests/verify_official_pixels.py` with Pillow, pypdf and Poppler. This independently compares all 27 source pages and checks the browser's printed PDFs. Verification artifacts remain under ignored `tmp/official-audit/`.
 
 Browser verification covers desktop Edge and a narrow viewport. Physical iPad Safari and physical printer output require separate testing.
+
+### Generated exam format
+
+Mock and random exams use the official PDFs' question order and page coordinates. Each generated blank exam and answer key stays on the same three Letter pages. Beamed passages and chords use shared notation rendering and aligned rhythmic spacing; SVG bounds reserve room for ledger lines, stems, examples, and answers.
+
+Run `python tools/build_layout_templates.py` (requires pdfplumber) to refresh the layout templates in the private source and the coordinate fixture. For generated exams, run `node tests/verify_notation.cjs`, `node tests/verify_rhythm.cjs`, and `node tests/verify_generated.cjs --protected` after rebuilding. The browser check covers both modes, three random seeds, blank exams and answer keys for all levels, including section fit, original question positions, notation bounds and printed PDFs. Artifacts stay in ignored `tmp/generated-audit/`.
+
+Run `python tests/verify_generated_prints.py` afterward to check all 36 printed exams/keys for three Letter pages and the original question distribution. The notation checks also cover note/answer clearance, complete chord answers, rhythmic alignment, and unique correct rhythm choices.
