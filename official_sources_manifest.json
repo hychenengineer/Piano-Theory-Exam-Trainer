@@ -1,0 +1,101 @@
+{
+  "P": {
+    "filename": "DSPF-Piano-P-Practice.pdf",
+    "sourceSha256": "77ad50622bcc8a0bd0e65cbd1ee2385e6f10c61bfbb5082bb94348c0c286a30d",
+    "pageCount": 3,
+    "dpi": 200,
+    "pageSha256": [
+      "cf298eac71f39049f3799e95ae17e7e1ad74bfe0deacc5dadc2901bed8bf5e89",
+      "d83e484e39f914cfffe013531776728f5e750dfd90456b66d586fcfc7a58efce",
+      "fd862d655088bf326a8b0ceb07da57366c9e0db5be6de511e51e8d911fcb5dce"
+    ]
+  },
+  "1": {
+    "filename": "DSPF-Piano-1-Practice.pdf",
+    "sourceSha256": "44c94a2c93934a9678fe0496e86e7fcf7c417c3198dc9b6d29bfd8b6fea6c908",
+    "pageCount": 3,
+    "dpi": 200,
+    "pageSha256": [
+      "3880b09ae53157be2c67d8af7641a79b3329541fddbbeb8a19adf248ab3f10f0",
+      "f38a7197f8f86561ff71a51da4e19f85994645062947b6d001d56741dd6da9f7",
+      "a97d4bdbd754c85f9f8955a11bc09149db7a44ae026d9d166939d650d061d34b"
+    ]
+  },
+  "2": {
+    "filename": "DSPF-Piano-2-Practice.pdf",
+    "sourceSha256": "4040b201c9ccb9432992ea95a76e5baac2e1979704ac09ab5897b6b4e0c5ff34",
+    "pageCount": 3,
+    "dpi": 200,
+    "pageSha256": [
+      "a251ca053c9e33d6cacef760b12fbf1c6e5e9ea9ac2d7d8d37fd78478ccc97e3",
+      "3d16c3d18bcf5402177f78795a6edd456dcad8b0f1989465cc98b792da44be40",
+      "f863ab76c8938518946b0a7aa12f981811a5c247e371d8a4a1b965f5d1e0a57c"
+    ]
+  },
+  "3": {
+    "filename": "DSPF-Piano-3-Practice.pdf",
+    "sourceSha256": "b388dedc579227eae1e7dc713053e5ac8182637ea682064f0351f3a422e6ca97",
+    "pageCount": 3,
+    "dpi": 200,
+    "pageSha256": [
+      "e691954eac32b6a2f8cd7d81ac28551cf82e675857c9d56a6c516896e321725b",
+      "d8f0e24ec067ee13795aa032fed64c46399931bf4e410fe840d0745f7c9eea55",
+      "8b44ec53309b0251740927fd72c78d3dfabb7e83b840039cbd82b3edff647d19"
+    ]
+  },
+  "4": {
+    "filename": "DSPF-Piano-4-Practice.pdf",
+    "sourceSha256": "2e52b9c2c8cbbbc029e7ecf9cd965392780b1603c23a73d3e8475800a7634931",
+    "pageCount": 3,
+    "dpi": 200,
+    "pageSha256": [
+      "3a9dfc367af614da9c8a555a90749976e2c0ace6c5bfb0754c1122a4b7cf53ad",
+      "c93a60497fc9a8717877a7957527f064f35cac770a01aeb7b4a10a9e4c473dd0",
+      "7f80b95e2bf6292db2429594d893581e5aba69718dddef8425216331c9db24f6"
+    ]
+  },
+  "5": {
+    "filename": "DSPF-Piano-5-Practice.pdf",
+    "sourceSha256": "0123f9a7ac0c56e98d151ff13dd9408b87e63458b6b8303e1fc8c743f764ff8d",
+    "pageCount": 3,
+    "dpi": 200,
+    "pageSha256": [
+      "c956d5793aec0da7d78ef18a18315820a359ff7bd9d5c36c8cb09efe03cef18f",
+      "25e07384c78d9110c0ebd177da90eee73b54712b1b769cf7dc13b834dabbbff7",
+      "84775881834735377ef4c76541282a57b21ba6a24db582141d5ce14706942988"
+    ]
+  },
+  "6": {
+    "filename": "DSPF-Piano-6-Practice.pdf",
+    "sourceSha256": "8e34d1f085118affc9f4e511ba9fd98969a944758577621bbbcb85d4bb23602d",
+    "pageCount": 3,
+    "dpi": 200,
+    "pageSha256": [
+      "7d64dcb03c7c0792a366e82ee8e5be1379020e93b9a882a9873dc51e2b0c95f5",
+      "d05d4d92c97c3b5fd977e1c340bffe1d50533dc95f49dda34a4f862ee141725f",
+      "ede0f61d3697df23ec7cbafdbc1b4e9049356e3b627dfcc613df47934f2bda8d"
+    ]
+  },
+  "7": {
+    "filename": "DSPF-Piano-7-Practice.pdf",
+    "sourceSha256": "197820106f3052f02720521e5d3aa48078a1c7fac56c97e7169f829be7e6a3e3",
+    "pageCount": 3,
+    "dpi": 200,
+    "pageSha256": [
+      "5a616349bafffd6dddb0a5c2dd922d366edba1673ea422582868393acfd4e818",
+      "44a5dec4547527eab77ae1831bf1206842c2ff672038d729c0829d5a363e9dd2",
+      "2bf0f0185797c0b2728840f41ae659d3782ad6cd0f7a88a23a26cfa61b0f3c4e"
+    ]
+  },
+  "8": {
+    "filename": "DSPF-Piano-8-Practice.pdf",
+    "sourceSha256": "bb4f98060f9d89308628c0c17b17e3daf6a3d9d927e928ecf58dcfdaed533573",
+    "pageCount": 3,
+    "dpi": 200,
+    "pageSha256": [
+      "67fb5699c5c0531a2be4cd49b272280059dc6f3aea9871fc33c2a69782c81c88",
+      "fc8a0b11c7a94491fd09b98eb1df256561c04acdc2bc83555d90b457ddb8ca41",
+      "3a277450d02fdb393f8480934f26db9031497ff032dc68759c632acb15651234"
+    ]
+  }
+}

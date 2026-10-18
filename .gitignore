@@ -5,3 +5,5 @@ official_reference_pdfs/
 *.pdf
 *.ps1
 *.bat
+tmp/
+__pycache__/
