@@ -25,6 +25,12 @@ assert.ok(voices[0][0].item.beamXs[3] + 10 < voices[0][1].x, 'beam group must en
 assert.equal(voices[0][1].x, voices[1][1].x, 'simultaneous beats align across staves');
 assert.equal(voices[0][2].x, voices[1][2].x);
 console.log('PASS: beamed groups do not collide with the following note and simultaneous voices align.');
+const crowdedAccidental = context.layoutPitchedMeasure([
+  [{dur:'q',pos:4},{dur:'8',pos:4},{dur:'q',pos:4},{dur:'8',pos:4},{dur:'q',pos:4,acc:'b'}],
+  [{dur:'h',pos:-7},{dur:'q',pos:-7},{dur:'q',pos:-7}]
+],100,202);
+assert.ok(crowdedAccidental[0][4].x-crowdedAccidental[0][3].x>=24,'an accidental needs extra horizontal space before its note, including intervening bass onsets');
+assert.equal(crowdedAccidental[0][4].x,crowdedAccidental[1][2].x,'extra accidental spacing preserves simultaneous beat alignment');
 const lowNoteQuestion = context.renderGrandStaffNotesBlock({ num: 1, prompt: 'Name notes', exampleNote: { staff: 'treble', pos: 6, ans: 'B' }, notes: [{ staff: 'bass', pos: -13, ans: 'D' }] }, true);
 const lowestHead = Math.max(...[...lowNoteQuestion.matchAll(/<ellipse[^>]+cy="([^"]+)"/g)].map(m => Number(m[1])));
 const answerBaseline = Number(lowNoteQuestion.match(/<text[^>]+y="([^"]+)"[^>]+fill="#d00000"/)[1]);
